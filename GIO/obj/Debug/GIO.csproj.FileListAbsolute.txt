@@ -1,0 +1,55 @@
+c:\users\simon restrepo\documents\visual studio 2012\Projects\GIO\GIO\bin\Debug\GIO.exe.config
+c:\users\simon restrepo\documents\visual studio 2012\Projects\GIO\GIO\bin\Debug\GIO.exe
+c:\users\simon restrepo\documents\visual studio 2012\Projects\GIO\GIO\bin\Debug\GIO.pdb
+c:\users\simon restrepo\documents\visual studio 2012\Projects\GIO\GIO\bin\Debug\MaterialDesignColors.dll
+c:\users\simon restrepo\documents\visual studio 2012\Projects\GIO\GIO\bin\Debug\MaterialDesignThemes.Wpf.dll
+c:\users\simon restrepo\documents\visual studio 2012\Projects\GIO\GIO\obj\Debug\GIO.csprojResolveAssemblyReference.cache
+c:\users\simon restrepo\documents\visual studio 2012\Projects\GIO\GIO\obj\Debug\MainWindow.baml
+c:\users\simon restrepo\documents\visual studio 2012\Projects\GIO\GIO\obj\Debug\MainWindow.g.cs
+c:\users\simon restrepo\documents\visual studio 2012\Projects\GIO\GIO\obj\Debug\App.g.cs
+c:\users\simon restrepo\documents\visual studio 2012\Projects\GIO\GIO\obj\Debug\GIO_MarkupCompile.cache
+c:\users\simon restrepo\documents\visual studio 2012\Projects\GIO\GIO\obj\Debug\GIO.g.resources
+c:\users\simon restrepo\documents\visual studio 2012\Projects\GIO\GIO\obj\Debug\GIO.Properties.Resources.resources
+c:\users\simon restrepo\documents\visual studio 2012\Projects\GIO\GIO\obj\Debug\GIO.csproj.GenerateResource.Cache
+c:\users\simon restrepo\documents\visual studio 2012\Projects\GIO\GIO\obj\Debug\GIO.exe
+c:\users\simon restrepo\documents\visual studio 2012\Projects\GIO\GIO\obj\Debug\GIO.pdb
+c:\users\simon restrepo\documents\visual studio 2012\Projects\GIO\GIO\obj\Debug\App.baml
+C:\Users\JHON.S\Desktop\OPANOBORRAR\GIO\GIO\GIO\bin\Debug\GIO.exe.config
+C:\Users\JHON.S\Desktop\OPANOBORRAR\GIO\GIO\GIO\obj\Debug\GIO.exe
+C:\Users\JHON.S\Desktop\OPANOBORRAR\GIO\GIO\GIO\obj\Debug\GIO.pdb
+C:\Users\JHON.S\Desktop\OPANOBORRAR\GIO\GIO\GIO\obj\Debug\GIO.csprojResolveAssemblyReference.cache
+C:\Users\JHON.S\Desktop\OPANOBORRAR\GIO\GIO\GIO\obj\Debug\Formularios\Entidades.baml
+C:\Users\JHON.S\Desktop\OPANOBORRAR\GIO\GIO\GIO\obj\Debug\Formularios\Login.baml
+C:\Users\JHON.S\Desktop\OPANOBORRAR\GIO\GIO\GIO\obj\Debug\App.baml
+C:\Users\JHON.S\Desktop\OPANOBORRAR\GIO\GIO\GIO\obj\Debug\Formularios\Entidades.g.cs
+C:\Users\JHON.S\Desktop\OPANOBORRAR\GIO\GIO\GIO\obj\Debug\Formularios\Login.g.cs
+C:\Users\JHON.S\Desktop\OPANOBORRAR\GIO\GIO\GIO\obj\Debug\App.g.cs
+C:\Users\JHON.S\Desktop\OPANOBORRAR\GIO\GIO\GIO\obj\Debug\GIO_MarkupCompile.cache
+C:\Users\JHON.S\Desktop\OPANOBORRAR\GIO\GIO\GIO\obj\Debug\GIO.g.resources
+C:\Users\JHON.S\Desktop\OPANOBORRAR\GIO\GIO\GIO\obj\Debug\GIO.Properties.Resources.resources
+C:\Users\JHON.S\Desktop\OPANOBORRAR\GIO\GIO\GIO\obj\Debug\GIO.csproj.GenerateResource.Cache
+C:\Users\JHON.S\Desktop\OPANOBORRAR\GIO\GIO\GIO\bin\Debug\GIO.exe
+C:\Users\JHON.S\Desktop\OPANOBORRAR\GIO\GIO\GIO\bin\Debug\GIO.pdb
+C:\Users\JHON.S\Desktop\OPANOBORRAR\GIO\GIO\GIO\bin\Debug\MaterialDesignColors.dll
+C:\Users\JHON.S\Desktop\OPANOBORRAR\GIO\GIO\GIO\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Simon Restrepo\Documents\Visual Studio 2013\Projects\GIO\GIO\bin\Debug\GIO.exe.config
+C:\Users\Simon Restrepo\Documents\Visual Studio 2013\Projects\GIO\GIO\obj\Debug\GIO.exe
+C:\Users\Simon Restrepo\Documents\Visual Studio 2013\Projects\GIO\GIO\obj\Debug\GIO.pdb
+C:\Users\Simon Restrepo\Documents\Visual Studio 2013\Projects\GIO\GIO\bin\Debug\GIO.exe
+C:\Users\Simon Restrepo\Documents\Visual Studio 2013\Projects\GIO\GIO\bin\Debug\GIO.pdb
+C:\Users\Simon Restrepo\Documents\Visual Studio 2013\Projects\GIO\GIO\bin\Debug\MaterialDesignColors.dll
+C:\Users\Simon Restrepo\Documents\Visual Studio 2013\Projects\GIO\GIO\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Simon Restrepo\Documents\Visual Studio 2013\Projects\GIO\GIO\obj\Debug\GIO.csprojResolveAssemblyReference.cache
+C:\Users\Simon Restrepo\Documents\Visual Studio 2013\Projects\GIO\GIO\obj\Debug\Formularios\Entidades.baml
+C:\Users\Simon Restrepo\Documents\Visual Studio 2013\Projects\GIO\GIO\obj\Debug\Formularios\Login.baml
+C:\Users\Simon Restrepo\Documents\Visual Studio 2013\Projects\GIO\GIO\obj\Debug\Formularios\MaterialDesignTheme.Font.baml
+C:\Users\Simon Restrepo\Documents\Visual Studio 2013\Projects\GIO\GIO\obj\Debug\Formularios\Roles.baml
+C:\Users\Simon Restrepo\Documents\Visual Studio 2013\Projects\GIO\GIO\obj\Debug\App.baml
+C:\Users\Simon Restrepo\Documents\Visual Studio 2013\Projects\GIO\GIO\obj\Debug\Formularios\Entidades.g.cs
+C:\Users\Simon Restrepo\Documents\Visual Studio 2013\Projects\GIO\GIO\obj\Debug\Formularios\Login.g.cs
+C:\Users\Simon Restrepo\Documents\Visual Studio 2013\Projects\GIO\GIO\obj\Debug\Formularios\Roles.g.cs
+C:\Users\Simon Restrepo\Documents\Visual Studio 2013\Projects\GIO\GIO\obj\Debug\App.g.cs
+C:\Users\Simon Restrepo\Documents\Visual Studio 2013\Projects\GIO\GIO\obj\Debug\GIO_MarkupCompile.cache
+C:\Users\Simon Restrepo\Documents\Visual Studio 2013\Projects\GIO\GIO\obj\Debug\GIO.g.resources
+C:\Users\Simon Restrepo\Documents\Visual Studio 2013\Projects\GIO\GIO\obj\Debug\GIO.Properties.Resources.resources
+C:\Users\Simon Restrepo\Documents\Visual Studio 2013\Projects\GIO\GIO\obj\Debug\GIO.csproj.GenerateResource.Cache

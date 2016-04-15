@@ -1,0 +1,16 @@
+C:\Users\JHON.S\Desktop\OPANOBORRAR\GIO\GIO\DatosGIO\bin\Debug\DatosGIO.dll.config
+C:\Users\JHON.S\Desktop\OPANOBORRAR\GIO\GIO\DatosGIO\bin\Debug\DatosGIO.dll
+C:\Users\JHON.S\Desktop\OPANOBORRAR\GIO\GIO\DatosGIO\bin\Debug\DatosGIO.pdb
+C:\Users\JHON.S\Desktop\OPANOBORRAR\GIO\GIO\DatosGIO\bin\Debug\EntityFramework.dll
+C:\Users\JHON.S\Desktop\OPANOBORRAR\GIO\GIO\DatosGIO\bin\Debug\EntityFramework.xml
+C:\Users\JHON.S\Desktop\OPANOBORRAR\GIO\GIO\DatosGIO\obj\Debug\DatosGIO.csprojResolveAssemblyReference.cache
+C:\Users\JHON.S\Desktop\OPANOBORRAR\GIO\GIO\DatosGIO\obj\Debug\DatosGIO.dll
+C:\Users\JHON.S\Desktop\OPANOBORRAR\GIO\GIO\DatosGIO\obj\Debug\DatosGIO.pdb
+C:\Users\Simon Restrepo\Documents\Visual Studio 2013\Projects\GIO\DatosGIO\bin\Debug\DatosGIO.dll.config
+C:\Users\Simon Restrepo\Documents\Visual Studio 2013\Projects\GIO\DatosGIO\bin\Debug\DatosGIO.dll
+C:\Users\Simon Restrepo\Documents\Visual Studio 2013\Projects\GIO\DatosGIO\bin\Debug\DatosGIO.pdb
+C:\Users\Simon Restrepo\Documents\Visual Studio 2013\Projects\GIO\DatosGIO\bin\Debug\EntityFramework.dll
+C:\Users\Simon Restrepo\Documents\Visual Studio 2013\Projects\GIO\DatosGIO\bin\Debug\EntityFramework.xml
+C:\Users\Simon Restrepo\Documents\Visual Studio 2013\Projects\GIO\DatosGIO\obj\Debug\DatosGIO.csprojResolveAssemblyReference.cache
+C:\Users\Simon Restrepo\Documents\Visual Studio 2013\Projects\GIO\DatosGIO\obj\Debug\DatosGIO.dll
+C:\Users\Simon Restrepo\Documents\Visual Studio 2013\Projects\GIO\DatosGIO\obj\Debug\DatosGIO.pdb

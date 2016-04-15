@@ -1,0 +1,11 @@
+﻿<Window x:Class="GIO.Formularios.BasePrueba"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="BasePrueba" Height="550" Width="809">
+    <Grid Margin="0,0,-254,-130">
+        <Button Content="Button" HorizontalAlignment="Left" Margin="169,359,0,0" VerticalAlignment="Top" Width="75"/>
+        <ComboBox HorizontalAlignment="Left" Margin="256,123,0,0" VerticalAlignment="Top" Width="120"/>
+        <DataGrid HorizontalAlignment="Left" Margin="310,197,0,0" VerticalAlignment="Top" Height="167" Width="337"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GIOModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="GIOEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Roles" EntityType="GIOModel.Roles" />
+    <EntitySet Name="RolesPorUsuario" EntityType="GIOModel.RolesPorUsuario" />
+    <EntitySet Name="Usuarios" EntityType="GIOModel.Usuarios" />
+    <AssociationSet Name="FK__RolesPorU__idRol__15502E78" Association="GIOModel.FK__RolesPorU__idRol__15502E78">
+      <End Role="Roles" EntitySet="Roles" />
+      <End Role="RolesPorUsuario" EntitySet="RolesPorUsuario" />
+    </AssociationSet>
+    <AssociationSet Name="FK__RolesPorU__idUsu__145C0A3F" Association="GIOModel.FK__RolesPorU__idUsu__145C0A3F">
+      <End Role="Usuarios" EntitySet="Usuarios" />
+      <End Role="RolesPorUsuario" EntitySet="RolesPorUsuario" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Roles">
+    <Key>
+      <PropertyRef Name="idRol" />
+    </Key>
+    <Property Name="idRol" Type="Int64" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="codigoRol" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="descripcion" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="RolesPorUsuario" Relationship="GIOModel.FK__RolesPorU__idRol__15502E78" FromRole="Roles" ToRole="RolesPorUsuario" />
+  </EntityType>
+  <EntityType Name="RolesPorUsuario">
+    <Key>
+      <PropertyRef Name="idRolesPorUsuario" />
+    </Key>
+    <Property Name="idRolesPorUsuario" Type="Int64" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="idUsuario" Type="Int64" />
+    <Property Name="idRol" Type="Int64" />
+    <NavigationProperty Name="Roles" Relationship="GIOModel.FK__RolesPorU__idRol__15502E78" FromRole="RolesPorUsuario" ToRole="Roles" />
+    <NavigationProperty Name="Usuarios" Relationship="GIOModel.FK__RolesPorU__idUsu__145C0A3F" FromRole="RolesPorUsuario" ToRole="Usuarios" />
+  </EntityType>
+  <EntityType Name="Usuarios">
+    <Key>
+      <PropertyRef Name="idUsuario" />
+    </Key>
+    <Property Name="idUsuario" Type="Int64" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="codigoUsuario" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="clave" Type="Binary" Nullable="false" MaxLength="1" FixedLength="false" />
+    <Property Name="primernombre" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="segundonombre" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="primerapellido" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="segundoapellido" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="nombrecompleto" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="correo" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="estado" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="false" />
+    <Property Name="fechaingreso" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="ultimoingreso" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="RolesPorUsuario" Relationship="GIOModel.FK__RolesPorU__idUsu__145C0A3F" FromRole="Usuarios" ToRole="RolesPorUsuario" />
+  </EntityType>
+  <Association Name="FK__RolesPorU__idRol__15502E78">
+    <End Role="Roles" Type="GIOModel.Roles" Multiplicity="0..1" />
+    <End Role="RolesPorUsuario" Type="GIOModel.RolesPorUsuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Roles">
+        <PropertyRef Name="idRol" />
+      </Principal>
+      <Dependent Role="RolesPorUsuario">
+        <PropertyRef Name="idRol" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__RolesPorU__idUsu__145C0A3F">
+    <End Role="Usuarios" Type="GIOModel.Usuarios" Multiplicity="0..1" />
+    <End Role="RolesPorUsuario" Type="GIOModel.RolesPorUsuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuarios">
+        <PropertyRef Name="idUsuario" />
+      </Principal>
+      <Dependent Role="RolesPorUsuario">
+        <PropertyRef Name="idUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="GIOModelStoreContainer" CdmEntityContainer="GIOEntities">
+    <EntitySetMapping Name="Roles">
+      <EntityTypeMapping TypeName="GIOModel.Roles">
+        <MappingFragment StoreEntitySet="Roles">
+          <ScalarProperty Name="idRol" ColumnName="idRol" />
+          <ScalarProperty Name="codigoRol" ColumnName="codigoRol" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RolesPorUsuario">
+      <EntityTypeMapping TypeName="GIOModel.RolesPorUsuario">
+        <MappingFragment StoreEntitySet="RolesPorUsuario">
+          <ScalarProperty Name="idRolesPorUsuario" ColumnName="idRolesPorUsuario" />
+          <ScalarProperty Name="idUsuario" ColumnName="idUsuario" />
+          <ScalarProperty Name="idRol" ColumnName="idRol" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Usuarios">
+      <EntityTypeMapping TypeName="GIOModel.Usuarios">
+        <MappingFragment StoreEntitySet="Usuarios">
+          <ScalarProperty Name="idUsuario" ColumnName="idUsuario" />
+          <ScalarProperty Name="codigoUsuario" ColumnName="codigoUsuario" />
+          <ScalarProperty Name="clave" ColumnName="clave" />
+          <ScalarProperty Name="primernombre" ColumnName="primernombre" />
+          <ScalarProperty Name="segundonombre" ColumnName="segundonombre" />
+          <ScalarProperty Name="primerapellido" ColumnName="primerapellido" />
+          <ScalarProperty Name="segundoapellido" ColumnName="segundoapellido" />
+          <ScalarProperty Name="nombrecompleto" ColumnName="nombrecompleto" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="fechaingreso" ColumnName="fechaingreso" />
+          <ScalarProperty Name="ultimoingreso" ColumnName="ultimoingreso" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

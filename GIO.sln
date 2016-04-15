@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GIO", "GIO\GIO.csproj", "{F5C1C3E9-81E7-4031-B3B2-19F80CF2FB9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatosGIO", "DatosGIO\DatosGIO.csproj", "{4A4B76EA-B9E6-481E-998E-95508EC8513D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E809C36E-9CDC-4A40-925C-20EB3659E59C}"
+	ProjectSection(SolutionItems) = preProject
+		..\MaterialDesignInXamlToolkit-master\MainDemo.Wpf\Buttons.xaml = ..\MaterialDesignInXamlToolkit-master\MainDemo.Wpf\Buttons.xaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5C1C3E9-81E7-4031-B3B2-19F80CF2FB9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5C1C3E9-81E7-4031-B3B2-19F80CF2FB9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5C1C3E9-81E7-4031-B3B2-19F80CF2FB9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5C1C3E9-81E7-4031-B3B2-19F80CF2FB9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A4B76EA-B9E6-481E-998E-95508EC8513D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A4B76EA-B9E6-481E-998E-95508EC8513D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A4B76EA-B9E6-481E-998E-95508EC8513D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A4B76EA-B9E6-481E-998E-95508EC8513D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

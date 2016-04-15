@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GIOModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="GIOModelStoreContainer">
+    <EntitySet Name="Roles" EntityType="GIOModel.Store.Roles" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="RolesPorUsuario" EntityType="GIOModel.Store.RolesPorUsuario" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Usuarios" EntityType="GIOModel.Store.Usuarios" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK__RolesPorU__idRol__15502E78" Association="GIOModel.Store.FK__RolesPorU__idRol__15502E78">
+      <End Role="Roles" EntitySet="Roles" />
+      <End Role="RolesPorUsuario" EntitySet="RolesPorUsuario" />
+    </AssociationSet>
+    <AssociationSet Name="FK__RolesPorU__idUsu__145C0A3F" Association="GIOModel.Store.FK__RolesPorU__idUsu__145C0A3F">
+      <End Role="Usuarios" EntitySet="Usuarios" />
+      <End Role="RolesPorUsuario" EntitySet="RolesPorUsuario" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Roles">
+    <Key>
+      <PropertyRef Name="idRol" />
+    </Key>
+    <Property Name="idRol" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="codigoRol" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="descripcion" Type="varchar" Nullable="false" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="RolesPorUsuario">
+    <Key>
+      <PropertyRef Name="idRolesPorUsuario" />
+    </Key>
+    <Property Name="idRolesPorUsuario" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="idUsuario" Type="bigint" />
+    <Property Name="idRol" Type="bigint" />
+  </EntityType>
+  <EntityType Name="Usuarios">
+    <Key>
+      <PropertyRef Name="idUsuario" />
+    </Key>
+    <Property Name="idUsuario" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="codigoUsuario" Type="varchar" MaxLength="10" />
+    <Property Name="clave" Type="varbinary" Nullable="false" MaxLength="1" />
+    <Property Name="primernombre" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="segundonombre" Type="varchar" MaxLength="50" />
+    <Property Name="primerapellido" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="segundoapellido" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="nombrecompleto" Type="varchar" Nullable="false" MaxLength="200" />
+    <Property Name="correo" Type="varchar" Nullable="false" MaxLength="200" />
+    <Property Name="estado" Type="varchar" Nullable="false" MaxLength="1" />
+    <Property Name="fechaingreso" Type="datetime" Nullable="false" />
+    <Property Name="ultimoingreso" Type="datetime" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__RolesPorU__idRol__15502E78">
+    <End Role="Roles" Type="GIOModel.Store.Roles" Multiplicity="0..1" />
+    <End Role="RolesPorUsuario" Type="GIOModel.Store.RolesPorUsuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Roles">
+        <PropertyRef Name="idRol" />
+      </Principal>
+      <Dependent Role="RolesPorUsuario">
+        <PropertyRef Name="idRol" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__RolesPorU__idUsu__145C0A3F">
+    <End Role="Usuarios" Type="GIOModel.Store.Usuarios" Multiplicity="0..1" />
+    <End Role="RolesPorUsuario" Type="GIOModel.Store.RolesPorUsuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuarios">
+        <PropertyRef Name="idUsuario" />
+      </Principal>
+      <Dependent Role="RolesPorUsuario">
+        <PropertyRef Name="idUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
