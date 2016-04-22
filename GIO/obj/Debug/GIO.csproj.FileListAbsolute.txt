@@ -53,3 +53,22 @@ C:\Users\Simon Restrepo\Documents\Visual Studio 2013\Projects\GIO\GIO\obj\Debug\
 C:\Users\Simon Restrepo\Documents\Visual Studio 2013\Projects\GIO\GIO\obj\Debug\GIO.g.resources
 C:\Users\Simon Restrepo\Documents\Visual Studio 2013\Projects\GIO\GIO\obj\Debug\GIO.Properties.Resources.resources
 C:\Users\Simon Restrepo\Documents\Visual Studio 2013\Projects\GIO\GIO\obj\Debug\GIO.csproj.GenerateResource.Cache
+C:\Users\ccsalazarj\Desktop\GIO\ProyectoGIO\ProyectoGIO\GIO\bin\Debug\GIO.exe.config
+C:\Users\ccsalazarj\Desktop\GIO\ProyectoGIO\ProyectoGIO\GIO\obj\Debug\GIO.exe
+C:\Users\ccsalazarj\Desktop\GIO\ProyectoGIO\ProyectoGIO\GIO\obj\Debug\GIO.pdb
+C:\Users\LUISA\Desktop\ProyectoGIO\GIO\bin\Debug\GIO.exe.config
+C:\Users\LUISA\Desktop\ProyectoGIO\GIO\obj\Debug\GIO.exe
+C:\Users\LUISA\Desktop\ProyectoGIO\GIO\obj\Debug\GIO.pdb
+C:\Users\LUISA\Desktop\ProyectoGIO\GIO\obj\Debug\GIO.csprojResolveAssemblyReference.cache
+C:\Users\LUISA\Desktop\ProyectoGIO\GIO\obj\Debug\Formularios\BasePrueba.baml
+C:\Users\LUISA\Desktop\ProyectoGIO\GIO\obj\Debug\Formularios\Entidades.baml
+C:\Users\LUISA\Desktop\ProyectoGIO\GIO\obj\Debug\Formularios\Login.baml
+C:\Users\LUISA\Desktop\ProyectoGIO\GIO\obj\Debug\Formularios\MaterialDesignTheme.Font.baml
+C:\Users\LUISA\Desktop\ProyectoGIO\GIO\obj\Debug\Formularios\Roles.baml
+C:\Users\LUISA\Desktop\ProyectoGIO\GIO\obj\Debug\App.baml
+C:\Users\LUISA\Desktop\ProyectoGIO\GIO\obj\Debug\Formularios\BasePrueba.g.cs
+C:\Users\LUISA\Desktop\ProyectoGIO\GIO\obj\Debug\Formularios\Entidades.g.cs
+C:\Users\LUISA\Desktop\ProyectoGIO\GIO\obj\Debug\Formularios\Login.g.cs
+C:\Users\LUISA\Desktop\ProyectoGIO\GIO\obj\Debug\Formularios\Roles.g.cs
+C:\Users\LUISA\Desktop\ProyectoGIO\GIO\obj\Debug\App.g.cs
+C:\Users\LUISA\Desktop\ProyectoGIO\GIO\obj\Debug\GIO_MarkupCompile.cache
